@@ -1,3 +1,5 @@
 Constantes {
  constante HELLO_WORLD = « Hello world »
+constante COULEUR_TEXTE_PRINCIPAL = "bleu"
+
  }

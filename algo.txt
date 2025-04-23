@@ -7,6 +7,8 @@ Configurer la fenetre sur COMMANDE
 // Création du label de texte
 Créer un label avec du texte centré et contenant le texte HELLO_WORLD
 Créer la couleur jaune
+Créer la couleur verte
+Couleur de fond en vert
 Mettre la couleur jaune sur le label
 Fond d'écran en jaune
 // Finalisation

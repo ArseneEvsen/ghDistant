@@ -16,3 +16,4 @@ Ajouter le lable sur la fenetre
 Afficher la fenêtre
 } 
 }
+CONFLIT

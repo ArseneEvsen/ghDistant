@@ -1,0 +1,19 @@
+#!/bin/bash
+
+mkdir -p suivi
+
+read -p "Souhaitez-vous enregistrer un message de vérification dans ce commit ? (y/[n]) : " yn < /dev/tty
+yn=${yn:-n}  # par défaut, 'n' si on fait juste [Entrée]
+
+case $yn in
+  [Yy]* )
+    NOW=$(date "+%Y-%m-%d %H:%M:%S")
+    echo "commit vérifié le $NOW" > suivi/commitInfo.txt
+    git add suivi/commitInfo.txt
+    ;;
+  * )
+    # Ne rien faire
+    ;;
+esac
+
+exit 0
